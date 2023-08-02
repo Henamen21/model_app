@@ -16,7 +16,7 @@ Please enter your records
 
 # Load ml components from file
 cwd = os.getcwd()
-relative_path = "streamlit_project\\src\\asset\\ml.pkl"
+relative_path = "streamlit_project\\ml.pkl"
 absolute_path = os.path.join(cwd, relative_path)
 print(absolute_path)
 
