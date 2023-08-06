@@ -12,6 +12,7 @@ st.image("https://upload.wikimedia.org/wikipedia/commons/0/0f/Corporaci%C3%B3n_F
 
 st.write("""# Corporation Favorita Grocery """)
 
+
 # Write a subheader
 st.subheader("Enter your records")
 
@@ -47,7 +48,6 @@ onpromotion = st.number_input("onpromotion" , key = "pro" )
 date = st.date_input("Select date", )
 
 
-backgroundColor = "green"
 with st.form(key = "my_form", clear_on_submit=True):
             
     # For presenting output
