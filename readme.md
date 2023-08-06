@@ -1,4 +1,4 @@
-# 🚀 Friendly Web Interface for ML Projects with Gradio & Streamlit 🚀
+# 🚀 Friendly Web Interface for ML Projects with Gradio & Streamlit  🚀
 
 There are many ways to make web interfaces to allow interaction with Machine Learning models and we will cover two of them.
 
@@ -8,62 +8,11 @@ There are many ways to make web interfaces to allow interaction with Machine Lea
 ![PR](https://img.shields.io/github/issues-pr/PapiHack/wimlds-demo?style=for-the-badge&logo=appveyor)
 [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-## Introduction
-
-Now that you know how to build some Machine Learning models, it is the time to discover how to embeded it into a web app with a user-friendly interface. You have already saw, of course, some ML tools and you maybe played with it. If so, you know that it is much more interesting to interact with a ML model through a beautiful interface than using a notebook, especially when you are not an expert of this domain.  
-
-In this project, we aim to help you to discover how to embed a ML model into a web app to interact with it much easier, by inputing the required information, making predictions and showing the result.
-
-
-<!-- You can find the slides of my talk at <https://meissa-wimlds-presentation.netlify.app>. -->
-
 ## Description
 
-<!-- 
-[gradio](https://gradio.app/)
-[streamlit](https://streamlit.io/)
--->
+This project is a Python-based application that can predict the sales of Corporation Favorita Grocery, a large Ecuadorian supermarket chain. The application uses Streamlit, an open-source framework that allows creating interactive web apps for machine learning and data science. The user can input various factors such as product category, store location, date, and promotion, and the app will output the expected sales for that scenario. This project can help Corporation Favorita Grocery optimize its inventory management and marketing strategies.
 
-You will have a minimal interface demo with [Gradio](https://gradio.app/) & [Streamlit](https://streamlit.io/), this will just serve you to make sure that everything works correctly. Then, you will have to make your own interfaces, those allowing you to interact with a Machine Learning model, that is to say:
-- Pass values through the interface;
-- Recover these values in backend;
-- Apply the necessary processing;
-- Submit the previously processed values to the ML model to make the predictions;
-- Process the predictions obtained and display them on the interface.
-
-## Instructions
-
-Your task is to understand the frameworks and build your app integrating a ML model.
-Clone this repository to use it as a template, do not forget to change the readme at the end of the project.
-Your work should follow these next steps.
-
-1.  Build a Streamlit app, during 2 first weeks, to embed the regression model you built a few weeks ago. 
-
-2.  Build a Gradio app, during 2 last weeks, to embed the classification model you built a few weeks ago.
-
-
-Upon completion of your project, you are required to write a blog post
-on your thought process on medium, LinkedIn, personal blog, or any other
-suitable blogging site.
-
-## Rubrics
-
-Streamlit:
-
--   **Excellent:** Have an that works correctly with a nice and personalized interface.
-
--   **Good:** Have an app that launches, makes prediction and shows result.
-
--   **Fair:** Have an app that launches but having bugs regarding prediction or interface.
-
-
-Gradio:
-
--   **Excellent:** Have an that works correctly with a nice and personalized interface.
-
--   **Good:** Have an app that launches, makes prediction and shows result.
-
--   **Fair:** Have an app that launches but having bugs regarding prediction or interface.
+<!-- You can find the slides of my talk at <https://meissa-wimlds-presentation.netlify.app>. -->
 
 ## Installation
 
@@ -75,11 +24,15 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
 
 - Windows:
         
-        python -m venv venv; venv\Scripts\activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirements.txt  
+        python -m venv venv; venv\Scripts\activate;
+        python -m pip install -q --upgrade pip;
+        python -m pip install -qr requirements.txt  
 
 - Linux & MacOs:
         
-        python3 -m venv venv; source venv/bin/activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirements.txt  
+        python3 -m venv venv; source venv/bin/activate;
+        python -m pip install -q --upgrade pip;
+        python -m pip install -qr requirements.txt  
 
 The both long command-lines have a same structure, they pipe multiple commands using the symbol **;** but you may manually execute them one after another.
 
@@ -92,29 +45,15 @@ The both long command-lines have a same structure, they pipe multiple commands u
 
 - Run the demo apps (being at the repository root):
         
+  Streamlit :
+    
+     streamlit run streamlit_project\app.py
+  
   Gradio:
     
-    - Demo
+     gradio run gradio_project\app.py
 
-          python gradio_project/basic_demo/app.py
-
-    - Salary prediction
-
-          python gradio_project/salary/app.py
-
-    - Titanic survival prediction
-
-          python gradio_project/titanic/app.py   
-
-
-  - Go to your browser at the following address :
-        
-      http://127.0.0.1:7860/
-
-
-  Streamlit: 
-
-      streamlit run streamlit_project/basic_demo/app.py
+The above code redirect you to your default browser, if not
 
   - Go to your browser at the following address :
         
