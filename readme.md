@@ -55,9 +55,14 @@ The both long command-lines have a same structure, they pipe multiple commands u
 
 The above code redirect you to your default browser, if not
 
-  - Go to your browser at the following address :
+  - Go to your browser at the following address for streamlit:
         
       http://localhost:8501
+- Go to your browser at the following address for streamlit:
+
+        http://127.0.0.1:7860
+  or
+          http://127.0.0.1:7861
 
 <!-- ## Structure
 ### File: app.py
