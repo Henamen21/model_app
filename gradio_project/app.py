@@ -60,7 +60,6 @@ def convert_to_df(gender, SeniorCitizen, Partner , Dependents ,
                 StreamingMovies , Contract , PaperlessBilling , PaymentMethod ,  
                 tenure , MonthlyCharges , TotalCharges):
     
-    
     # Create a list of lists from the input arguments
     data = [[gender, SeniorCitizen, Partner , Dependents , 
                 PhoneService , MultipleLines , InternetService , OnlineSecurity , 

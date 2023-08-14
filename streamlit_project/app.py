@@ -70,6 +70,7 @@ with st.form(key = "my_form", clear_on_submit=True):
             df = df[["store_nbr" , "onpromotion"]] # secting exogenous variables
             print(df)
             
+            # Predicting values
             predicted = pip.predict(df)
             df["sales"] = predicted
 
