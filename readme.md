@@ -51,7 +51,7 @@ The both long command-lines have a same structure, they pipe multiple commands u
        
 - Gradio:
     
-     gradio run gradio_project\app.py;
+     gradio gradio_project\app.py;
 
 The above code redirect you to your default browser, if not
 
@@ -59,7 +59,7 @@ The above code redirect you to your default browser, if not
         
       http://localhost:8501;
       
-- Go to your browser at the following address for streamlit:
+- Go to your browser at the following address for gradio:
 
         http://127.0.0.1:7860; # or
         http://127.0.0.1:7861
@@ -92,21 +92,19 @@ C:.
 
 <table>
     <tr>
-        <th>Gradio Salary Prediction</th>
-        <th>Gradio Titanic Survival Prediction</th>
+        <th>Streamlit Basic Demo</th>
     </tr>
     <tr>
-        <td><img src="./screenshots/gr_salary_app_interface.png"/></td>
-        <td><img src="./screenshots/gr_titanic_app_interface.png"/></td>
+        <td><img src="./screenshots/streamlit.png"/></td>
     </tr>
 </table>
 
 <table>
     <tr>
-        <th>Streamlit Basic Demo</th>
+        <th>Gradio Basic Demo</th>
     </tr>
     <tr>
-        <td><img src="./screenshots/st_basic_demo_app_interface.png"/></td>
+        <td><img src="./screenshots/gradio.png"/></td>
     </tr>
 </table>
 
@@ -118,10 +116,9 @@ Here are some ressources you would read to have a good understanding of Gradio a
 
 
 ## Contributing
-
+[LAWRENCE LARWEH](https://gh.linkedin.com/in/lawrencelarweh)
 
 
 ## Author
 
-- [Emmanuel KOUPOH](https://www.linkedin.com/in/esa%C3%AFe-alain-emmanuel-dina-koupoh-7b974a17a/)
-[![My Twitter Link](https://img.shields.io/twitter/follow/emmanuelkoupoh?style=social)](https://twitter.com/emmanuelkoupoh)
+- [HENOK SOLOMON](www.linkedin.com/in/henok-solomon-a3b537206)
