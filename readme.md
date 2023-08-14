@@ -45,25 +45,25 @@ The both long command-lines have a same structure, they pipe multiple commands u
 
 - Run the demo apps (being at the repository root):
         
-  Streamlit :
+- Streamlit:
     
-     streamlit run streamlit_project\app.py
-  
-  Gradio:
+     streamlit run streamlit_project\app.py;
+       
+- Gradio:
     
-     gradio run gradio_project\app.py
+     gradio run gradio_project\app.py;
 
 The above code redirect you to your default browser, if not
 
-  - Go to your browser at the following address for streamlit:
+- Go to your browser at the following address for streamlit:
         
-      http://localhost:8501
+      http://localhost:8501;
+      
 - Go to your browser at the following address for streamlit:
 
-        http://127.0.0.1:7860
-  or
-          http://127.0.0.1:7861
-
+        http://127.0.0.1:7860; # or
+        http://127.0.0.1:7861
+  
 <!-- ## Structure
 ### File: app.py
 
@@ -117,13 +117,9 @@ Here are some ressources you would read to have a good understanding of Gradio a
 - [Get started with Gradio](https://gradio.app/getting_started/)
 
 
-
-
 ## Contributing
 
-Feel free to make a PR or report an issue 😃.
 
-Oh, one more thing, please do not forget to put a description when you make your PR 🙂.
 
 ## Author
 
