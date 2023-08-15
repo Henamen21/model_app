@@ -77,7 +77,7 @@ def convert_to_df(gender, SeniorCitizen, Partner , Dependents ,
     print("check")
     print(df)
     print("predict") 
-    
+     
     pipeline = ml_components["pipline"]
     predicted = pipeline.predict(df)
 
@@ -98,6 +98,4 @@ iface = gr.Interface(
     outputs="label",
     theme=gr.themes.GoogleFont(name="Roboto")
     )
-iface.launch(share = "True")
-
-    
+iface.launch(share = "True")    

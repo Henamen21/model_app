@@ -66,7 +66,7 @@ with st.form(key = "my_form", clear_on_submit=True):
             df = pd.DataFrame(inputs[1:], columns=inputs[0])
             
             df = df.set_index("date") # make the date as index 
-            
+                   
             df = df[["store_nbr" , "onpromotion"]] # secting exogenous variables
             print(df)
             
@@ -76,7 +76,7 @@ with st.form(key = "my_form", clear_on_submit=True):
 
             st.balloons()
             st.success('Successfully predicted!', icon="✅")
-            print(df)
+            print(df) 
             
             st.write(predicted)
             st.write(df)
