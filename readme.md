@@ -1,7 +1,15 @@
 # 🚀 Friendly Web Interface for ML Projects with Gradio & Streamlit  🚀
 
+<h3 align="center">
+Hi there, I'm <b>Henok</b> 👋 
+</h3>  
+
+<h2 align="center">
+I'm a Data Analyst and Python Programmer !
+</h2> 
 There are many ways to make web interfaces to allow interaction with Machine Learning models and we will cover two of them.
 
+# Technical Skills 
 [![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 [![MIT licensed](https://img.shields.io/badge/license-mit-blue?style=for-the-badge&logo=appveyor)](./LICENSE)
 ![Issues](https://img.shields.io/github/issues/PapiHack/wimlds-demo?style=for-the-badge&logo=appveyor)
