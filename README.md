@@ -32,15 +32,17 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
 
 - Windows:
         
-        python -m venv venv; venv\Scripts\activate;
+        python -m venv venv;
+        venv\Scripts\activate;
         python -m pip install -q --upgrade pip;
-        python -m pip install -qr requirements.txt  
+        pip install -r requirements.txt;  
 
 - Linux & MacOs:
         
-        python3 -m venv venv; source venv/bin/activate;
+        python3 -m venv venv;
+        source venv/bin/activate;
         python -m pip install -q --upgrade pip;
-        python -m pip install -qr requirements.txt  
+        python install -r requirements.txt  
 
 The both long command-lines have a same structure, they pipe multiple commands using the symbol **;** but you may manually execute them one after another.
 
